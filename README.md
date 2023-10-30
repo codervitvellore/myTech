@@ -1,2 +1,2 @@
 
-# [Project Live Link](https://study-notion-made-by-atul-singh.netlify.app/)
+MyTech is an edtech website build using Reactjs, Nodejs and tailwind css.
