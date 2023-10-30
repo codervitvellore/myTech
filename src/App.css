@@ -1,0 +1,49 @@
+/* write your css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gradient-text {
+  background: linear-gradient(-100deg, #a6ffcb 1%, #12d8fa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.video-shadow {
+  box-shadow: 20px 20px 0 0 white;
+}
+
+div.video-background-shadow {
+  box-shadow: 0 -25px 50px #3d7dab4b;
+}
+
+.btn-yellow-shadow {
+  box-shadow: 2px 2px 1px rgb(255, 243, 107);
+}
+.btn-black-shadow {
+  box-shadow: 2px 2px 1px rgb(67, 67, 67);
+}
+
+.border-top {
+  border-top: 2px solid;
+
+  border-image: linear-gradient(to right, #88898a, #000814) 1 0 0 0;
+}
+
+.homepage_bg {
+  background-image: url("../src/assets/Images/bghome.svg");
+}
+
+.border-dotted {
+  border-top: 3px dotted rgb(173, 172, 172);
+
+  /* border-collapse: collapse;
+  border-top-style: dashed;
+  border-color: #12d8fa; */
+}
+
